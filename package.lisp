@@ -1,4 +1,4 @@
 ;;;; package.lisp
 
 (defpackage #:super-loader
-  (:use #:cl))
+  (:use :cl))

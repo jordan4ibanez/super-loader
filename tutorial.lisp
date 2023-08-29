@@ -1,14 +1,3 @@
-# super-loader
- A local systems loader for common lisp.
-
-I was quite annoyed with not being able to store my systems in the root dirs of my project without jumping through hoops.
-I realized that for newcomers to lisp this was a very interesting experience. 
-So I made super-loader. Super loader is very easy to use.
-
-How to use it:
-```lisp
-;; You can find all this in "tutorial.lisp".
-
 (eval-when (:compile-toplevel :load-toplevel :execute)
   ;; This is how to load up super-loader.
   (ql:quickload :super-loader)
@@ -35,5 +24,3 @@ How to use it:
 ;; Now what's the secret?
 (the-secret)
 ;; I suppose you're going to have to run the tutorial and find out!
-```
-
