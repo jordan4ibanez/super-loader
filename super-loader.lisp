@@ -1,10 +1,8 @@
 ;; Thanks to ICan'tThinkOfAGoodName in the Lisp Discord for helping out with making this work on Windows!
 
-(in-package :super-loader)
+(in-package #:super-loader)
 
-(export '(
-          super-load 
-           ))
+(export '(super-load))
 
 (defun super-load(relative-path)
 "Loads an asdf system based on the relative path of the current working directory (root of project).
