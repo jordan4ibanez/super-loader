@@ -1,11 +1,24 @@
 # super-loader
  A local systems loader for common lisp.
 
+----
+
 I was quite annoyed with not being able to store my systems in the root dirs of my project without jumping through hoops.
 I realized that for newcomers to lisp this was a very interesting experience. 
 So I made super-loader. Super loader is very easy to use.
 
-How to use it:
+----
+
+### How to install:
+
+Since this is not on quicklisp yet you have to git clone this into this folder:<br>
+``/home/your-user/common-lisp/``<br>
+This is so quicklisp can see and use it.
+
+-----
+
+### How to use:
+
 ```lisp
 ;; The entirety of this tutorial can be found in:
 ;; "tutorial.lisp"
